@@ -9,7 +9,6 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e81f563a84566cd4c8885492fd44131f, type: 3}
-  m_Name: Coins
+  m_Script: {fileID: 11500000, guid: 62c1e1f785eb041459ea034e9e240b5a, type: 3}
+  m_Name: Player_Go_event
   m_EditorClassIdentifier: 
-  value: 0

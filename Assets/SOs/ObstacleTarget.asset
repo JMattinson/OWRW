@@ -9,7 +9,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e81f563a84566cd4c8885492fd44131f, type: 3}
-  m_Name: HiScore
+  m_Script: {fileID: 11500000, guid: 70a0b31185ef4f04aa0080b7fcd3bd53, type: 3}
+  m_Name: ObstacleTarget
   m_EditorClassIdentifier: 
-  value: 265
+  value: {x: -15, y: 0, z: 0}
