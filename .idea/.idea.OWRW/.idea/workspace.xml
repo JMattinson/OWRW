@@ -9,6 +9,7 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Instancer.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/ObjectScrollBehavior.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/ScrollingBehavior.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
@@ -76,6 +77,7 @@
       <workItem from="1665607295988" duration="1033000" />
       <workItem from="1665608379299" duration="588000" />
       <workItem from="1665609018849" duration="1469000" />
+      <workItem from="1665947687334" duration="3211000" />
     </task>
     <servers />
   </component>
