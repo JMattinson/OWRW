@@ -7,6 +7,7 @@ public class ScrollingBehavior : MonoBehaviour
     
     private float offset;
     private Material mat;
+    public BoolData stopCheck;
 
     private void Start()
     {
@@ -17,7 +18,11 @@ public class ScrollingBehavior : MonoBehaviour
     
     public void BGScroll()
     {
-        offset += (speed* Time.deltaTime);
-        mat.SetTextureOffset("_MainTex", new Vector2(offset, 0));
+        if (stopCheck)
+        {
+            offset += (speed* Time.deltaTime);
+            mat.SetTextureOffset("_MainTex", new Vector2(offset, 0));
+        }
+
     }
 }

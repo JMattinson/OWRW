@@ -3,45 +3,15 @@ using UnityEngine;
 [CreateAssetMenu]
 public class Instancer : ScriptableObject
 {
-    public GameObject prefab;
-    private int num;
+    public GameObject[] prefabList;
+    public BoolData stopCheck;
     
-    public void CreateInstance()
+    public void CreateInstanceRandomly(Vector3Data obj)
     {
-        Instantiate(prefab);
-    }
-    public void CreateInstance(Vector3Data obj)
-    {
-        Instantiate(prefab, obj.value, Quaternion.identity);
-    }
-
-    public void CreateInstanceFromList(Vector3DataList obj)
-    {
-        foreach (var t in obj.vector3List)
+        if (stopCheck)
         {
-            Instantiate(prefab, t.value, Quaternion.identity);
+            Instantiate(prefabList[(UnityEngine.Random.Range(1, prefabList.Length))], obj.value, Quaternion.identity);
         }
-    }
-
-    public void CreateInstanceFromListCounting(Vector3DataList obj)
-    {
-       
-        
-        Instantiate(prefab, obj.vector3List[num].value, Quaternion.identity);
-        num++;
-        if (num == obj.vector3List.Count)
-        {
-            num = 0;
-        }
-    }
-    
-    public void CreateInstanceListRandomly(Vector3DataList obj)
-    {
-
-        num = UnityEngine.Random.Range(0,obj.vector3List.Count - 1);
-        
-        Instantiate(prefab, obj.vector3List[num].value, Quaternion.identity);
-      
     }
 
 }

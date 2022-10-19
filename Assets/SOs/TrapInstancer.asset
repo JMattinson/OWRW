@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 459492494ff8877428fe3efdec0423d8, type: 3}
+  m_Name: TrapInstancer
+  m_EditorClassIdentifier: 
+  prefabList:
+  - {fileID: 8648354366422052377, guid: ff40dc2f5b8fbc443a7a8cae5c8877df, type: 3}
+  - {fileID: 3703272278198049670, guid: 56a295f77f399f14fac733542d01e197, type: 3}
+  - {fileID: 7389048627836952423, guid: d3a85a6edcb35b444b7bea234652e386, type: 3}
+  - {fileID: 8648354366422052377, guid: ff40dc2f5b8fbc443a7a8cae5c8877df, type: 3}
+  stopCheck: {fileID: 11400000, guid: 298d5cefa096d1a48844873ac3046063, type: 2}
