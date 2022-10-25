@@ -1,6 +1,7 @@
 using System;
 using UnityEngine;
 using UnityEngine.Events;
+using UnityEngine.Android;
 
 public class ControlBehavior : MonoBehaviour
 {
@@ -16,9 +17,18 @@ public class ControlBehavior : MonoBehaviour
     {
         startDragEvent.Invoke();
     }
+    
 
     private void OnMouseUp()
     {
         endDragEvent.Invoke();
+    }
+
+    private void FixedUpdate()
+    {
+        if (Input.touchCount > 0)
+        {
+            startDragEvent.Invoke();
+        }
     }
 }
