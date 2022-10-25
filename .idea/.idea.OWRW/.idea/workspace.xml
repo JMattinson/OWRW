@@ -32,7 +32,7 @@
 }</component>
   <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
     <configuration name="UnitTests (batch mode)" type="RunUnityExe" factoryName="Unity Executable">
-      <option name="EXE_PATH" value="C:\Program Files\Unity\Hub\Editor\2019.4.18f1\Editor\Unity.exe" />
+      <option name="EXE_PATH" value="C:\Users\jaden\OneDrive\Documents\Unity Projects\2021.3.11f1\Editor\Unity.exe" />
       <option name="PROGRAM_PARAMETERS" value="-runTests -batchmode -projectPath &quot;C:\Users\jaden\Documents\School Repos\UVU Game Essentials\Final - OWRW\OWRW&quot; -testResults Logs/results.xml -testPlatform EditMode -debugCodeOptimization" />
       <option name="WORKING_DIRECTORY" value="C:\Users\jaden\Documents\School Repos\UVU Game Essentials\Final - OWRW\OWRW" />
       <option name="PASS_PARENT_ENVS" value="1" />
@@ -85,6 +85,7 @@
       <workItem from="1666217375531" duration="840000" />
       <workItem from="1666218281220" duration="2834000" />
       <workItem from="1666628063653" duration="3812000" />
+      <workItem from="1666667144491" duration="69000" />
     </task>
     <servers />
   </component>
