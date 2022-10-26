@@ -11,6 +11,7 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Instancer.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/ObjectScrollBehavior.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/ScrollingBehavior.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/StopTimer.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -86,7 +87,8 @@
       <workItem from="1666218281220" duration="2834000" />
       <workItem from="1666628063653" duration="3812000" />
       <workItem from="1666667144491" duration="69000" />
-      <workItem from="1666745857683" duration="3533000" />
+      <workItem from="1666745857683" duration="3900000" />
+      <workItem from="1666806454293" duration="7842000" />
     </task>
     <servers />
   </component>

@@ -5,14 +5,14 @@ using UnityEngine.Events;
 public class CoroutineBehavior : MonoBehaviour
 {
     public bool CanRun { get; set; }
-    public UnityEvent startEvent,startCountEvent, repeatCountEvent, endCountEvent,repeatUntilFalseEvent;
+    public UnityEvent AwakeEvent, startEvent,startCountEvent, repeatCountEvent, endCountEvent,repeatUntilFalseEvent;
     public IntData counterNum;
     public float seconds = 3.0f;
     
     private WaitForSeconds wfsObj;
     private WaitForFixedUpdate wffuObj;
 
-    private void Awake()
+    public void Awake()
     {
         wfsObj = new WaitForSeconds(seconds);
         wffuObj = new WaitForFixedUpdate();

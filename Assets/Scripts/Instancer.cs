@@ -8,10 +8,11 @@ public class Instancer : ScriptableObject
     
     public void CreateInstanceRandomly(Vector3Data obj)
     {
-        if (stopCheck)
+        if (stopCheck.value) 
         {
             Instantiate(prefabList[(UnityEngine.Random.Range(1, prefabList.Length))], obj.value, Quaternion.identity);
         }
+        Debug.Log("Trap!");
     }
 
 }

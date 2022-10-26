@@ -1,4 +1,3 @@
-using System;
 using UnityEngine;
 using UnityEngine.Events;
 using UnityEngine.Android;
@@ -19,13 +18,23 @@ public class ControlBehavior : MonoBehaviour
 
 public void OnMouseDown()
     {
+        
         startDragEvent.Invoke();
+        
     }
     
 
-    private void OnMouseUp()
+    public void OnMouseUp()
+    {
+        if (!stopCheck.value)
+            endDragEvent.Invoke();
+        
+    }
+    
+    public void ForceGo()
     {
         endDragEvent.Invoke();
+        
     }
  
 
@@ -41,7 +50,8 @@ public void OnMouseDown()
             }
             else if (touch.phase == TouchPhase.Ended)
             {
-                endDragEvent.Invoke();
+                if (!stopCheck.value)
+                    endDragEvent.Invoke();
             }
         }
     }
