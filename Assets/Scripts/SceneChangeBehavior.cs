@@ -6,7 +6,7 @@ public class SceneChangeBehavior : MonoBehaviour
 
     public void GameStart()
     {
-        
+        SceneManager.LoadScene("Scenes/GameScene");
     }
 
     public void GameReturn()

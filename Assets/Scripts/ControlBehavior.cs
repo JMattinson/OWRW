@@ -6,14 +6,18 @@ using UnityEngine.Android;
 public class ControlBehavior : MonoBehaviour
 {
     public bool draggable;
-    public BoolData stopCheck{ get; set; }
+    public BoolData stopCheck;
     public UnityEvent startEvent, startDragEvent, endDragEvent;
+    
     void Start()
     {
         startEvent.Invoke();
     }
 
-    public void OnMouseDown()
+    
+//Look I had a nice clean version of this code that didn't rely on Update:
+
+public void OnMouseDown()
     {
         startDragEvent.Invoke();
     }
@@ -23,12 +27,22 @@ public class ControlBehavior : MonoBehaviour
     {
         endDragEvent.Invoke();
     }
+ 
 
-    private void FixedUpdate()
+//But there's no OnMouseDown alternative that I know of for mobile. so here we are, stuck with update. 
+    private void Update()
     {
         if (Input.touchCount > 0)
         {
-            startDragEvent.Invoke();
+            Touch touch = Input.GetTouch(0);
+            if (touch.phase == TouchPhase.Began)
+            {
+                startDragEvent.Invoke();
+            }
+            else if (touch.phase == TouchPhase.Ended)
+            {
+                endDragEvent.Invoke();
+            }
         }
     }
 }
