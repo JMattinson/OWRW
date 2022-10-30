@@ -84,6 +84,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 95d17b32c61d39644a2a6f25de66b2f6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  AwakeEvent:
+    m_PersistentCalls:
+      m_Calls: []
   startEvent:
     m_PersistentCalls:
       m_Calls:
@@ -292,8 +295,8 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 0.17628174, y: 0.14957796, z: 0.2}
-  m_Center: {x: 0, y: 0.133966, z: 0}
+  m_Size: {x: 0.15148841, y: 0.13017443, z: 0.2}
+  m_Center: {x: -0.0005390379, y: 0.135044, z: 0}
 --- !u!114 &7389048628177141268
 MonoBehaviour:
   m_ObjectHideFlags: 0

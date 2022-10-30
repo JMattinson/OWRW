@@ -1,10 +1,10 @@
-using System;
+
 using UnityEngine;
 using UnityEngine.Events;
 
 public class StopTimer : MonoBehaviour
 {
-   public IntData stopTime;
+   public FloatData stopTime;
    public BoolData stopCheck;
 
    public UnityEvent startEvent,outOfTimeEvent,TickEvent;
@@ -21,13 +21,13 @@ public class StopTimer : MonoBehaviour
        {
            if (stopTime.value < 100)
            {
-               stopTime.value++;
+               stopTime.value += .5f;
                TickEvent.Invoke();
            }
        }
        else
        {
-           stopTime.value--;
+           stopTime.value-= 1.5f;
            
        }
 

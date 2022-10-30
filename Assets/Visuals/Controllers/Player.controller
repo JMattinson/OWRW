@@ -8,8 +8,8 @@ AnimatorState:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: OWRWBase_PLR_Stop
-  m_Speed: 0.75
-  m_CycleOffset: 1
+  m_Speed: 5
+  m_CycleOffset: 0
   m_Transitions:
   - {fileID: -4789891430921284664}
   - {fileID: -7215360209631825391}
@@ -93,9 +93,9 @@ AnimatorStateTransition:
   m_Mute: 0
   m_IsExit: 0
   serializedVersion: 3
-  m_TransitionDuration: 0.79830164
+  m_TransitionDuration: 0.085987076
   m_TransitionOffset: 0
-  m_ExitTime: 9.336678e-10
+  m_ExitTime: 8.439881e-10
   m_HasExitTime: 1
   m_HasFixedDuration: 1
   m_InterruptionSource: 0
@@ -295,7 +295,7 @@ AnimatorStateTransition:
   m_TransitionDuration: 0.09722432
   m_TransitionOffset: 0
   m_ExitTime: 0.000000018514111
-  m_HasExitTime: 0
+  m_HasExitTime: 1
   m_HasFixedDuration: 1
   m_InterruptionSource: 0
   m_OrderedInterruption: 1
@@ -316,7 +316,7 @@ AnimatorState:
   m_StateMachineBehaviours: []
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
-  m_WriteDefaultValues: 1
+  m_WriteDefaultValues: 0
   m_Mirror: 0
   m_SpeedParameterActive: 0
   m_MirrorParameterActive: 0
