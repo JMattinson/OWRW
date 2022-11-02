@@ -20,7 +20,7 @@ public class SceneChangeBehavior : MonoBehaviour
     }
     public void MainMenu()
     {
-        
+        SceneManager.LoadScene("Scenes/TitleScene");
     }
 
 }

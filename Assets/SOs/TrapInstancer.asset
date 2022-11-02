@@ -17,4 +17,5 @@ MonoBehaviour:
   - {fileID: 3703272278198049670, guid: 56a295f77f399f14fac733542d01e197, type: 3}
   - {fileID: 7389048627836952423, guid: d3a85a6edcb35b444b7bea234652e386, type: 3}
   - {fileID: 8526667532037807718, guid: fa5b4e5182c13d049942dfd1992a5e88, type: 3}
+  - {fileID: 330161945340828571, guid: 37747d6f0e405c346bc72cf862cc52a7, type: 3}
   stopCheck: {fileID: 11400000, guid: 298d5cefa096d1a48844873ac3046063, type: 2}

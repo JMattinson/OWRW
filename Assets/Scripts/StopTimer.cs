@@ -19,15 +19,19 @@ public class StopTimer : MonoBehaviour
    {
        if (stopCheck.value)
        {
-           if (stopTime.value < 100)
+           if (stopTime.value <= 99.75f)
            {
-               stopTime.value += .5f;
+               stopTime.value += .75f;
+               if (stopTime.value> 100f)
+               {
+                   stopTime.value = 100f;
+               }
                TickEvent.Invoke();
            }
        }
        else
        {
-           stopTime.value-= 1.5f;
+           stopTime.value-= 1f;
            
        }
 

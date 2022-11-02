@@ -14,9 +14,9 @@ public class ControlBehavior : MonoBehaviour
     }
 
     
-//Look I had a nice clean version of this code that didn't rely on Update:
 
-/*public void OnMouseDown()
+
+public void OnMouseDown()
     {
         
         startDragEvent.Invoke();
@@ -31,29 +31,10 @@ public class ControlBehavior : MonoBehaviour
         
     }
     
-    
- */
-
-//But there's no OnMouseDown alternative that I know of for mobile. so here we are, stuck with update. 
-    private void Update()
-    {
-        if (Input.touchCount > 0)
-        {
-            Touch touch = Input.GetTouch(0);
-            if (touch.phase == TouchPhase.Began)
-            {
-                startDragEvent.Invoke();
-            }
-            else if (touch.phase == TouchPhase.Ended)
-            {
-                if (!stopCheck.value)
-                    endDragEvent.Invoke();
-            }
-        }
-    }
     public void ForceGo()
     {
-        endDragEvent.Invoke();
+        if (!stopCheck.value)
+            endDragEvent.Invoke();
         
     }
 

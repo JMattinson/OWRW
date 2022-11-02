@@ -12,7 +12,6 @@ public class Instancer : ScriptableObject
         {
             Instantiate(prefabList[(UnityEngine.Random.Range(1, prefabList.Length))], obj.value, Quaternion.identity);
         }
-        Debug.Log("Trap!");
     }
 
 }
