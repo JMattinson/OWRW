@@ -31,7 +31,7 @@ public class StopTimer : MonoBehaviour
        }
        else
        {
-           stopTime.value-= 1f;
+           stopTime.value-= 0.75f;
            
        }
 
