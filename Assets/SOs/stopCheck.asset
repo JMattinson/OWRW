@@ -12,4 +12,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9222277df4bb2974ea3d6527fcca6177, type: 3}
   m_Name: stopCheck
   m_EditorClassIdentifier: 
-  value: 0
+  value: 1

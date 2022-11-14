@@ -22,5 +22,8 @@ public class SceneChangeBehavior : MonoBehaviour
     {
         SceneManager.LoadScene("Scenes/TitleScene");
     }
-
+    public void Tuto()
+    {
+        SceneManager.LoadScene("Scenes/TutoScene");
+    }
 }

@@ -20,4 +20,7 @@ EditorBuildSettings:
   - enabled: 0
     path: 
     guid: 00000000000000000000000000000000
+  - enabled: 1
+    path: Assets/Scenes/TutoScene.unity
+    guid: 0a16a4f3ccbc0fc47b6e457e5382afa7
   m_configObjects: {}
