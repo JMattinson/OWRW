@@ -32,7 +32,7 @@ Transform:
   m_LocalScale: {x: 5, y: 5, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 7934139751415524327}
+  m_Father: {fileID: 5342778420601861207}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &1593881093434580864
@@ -221,7 +221,7 @@ Transform:
   m_LocalScale: {x: 5, y: 5, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 7934139751415524327}
+  m_Father: {fileID: 5342778420601861207}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &1593881093480130007
@@ -409,7 +409,7 @@ Transform:
   m_LocalScale: {x: 9, y: 9, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 7934139751415524327}
+  m_Father: {fileID: 5342778420601861207}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &3894260852734555535
@@ -535,7 +535,7 @@ Transform:
   m_LocalScale: {x: 9, y: 9, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 7934139751415524327}
+  m_Father: {fileID: 5342778420601861207}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &4398751330977489764
@@ -630,7 +630,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
---- !u!1 &7934139751415524321
+--- !u!1 &5342778420601861201
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -638,11 +638,11 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 7934139751415524327}
-  - component: {fileID: 7934139751415524320}
-  - component: {fileID: 7934139751415524325}
-  - component: {fileID: 7934139751415524326}
-  - component: {fileID: 4868094411436672344}
+  - component: {fileID: 5342778420601861207}
+  - component: {fileID: 5342778420601861200}
+  - component: {fileID: 5342778420601861205}
+  - component: {fileID: 5342778420601861206}
+  - component: {fileID: 7471494496116169448}
   m_Layer: 0
   m_Name: Trap_CoinlureAlt_Entity
   m_TagString: Untagged
@@ -650,15 +650,15 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &7934139751415524327
+--- !u!4 &5342778420601861207
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7934139751415524321}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 7.541137, y: -2.3110747, z: 0}
+  m_GameObject: {fileID: 5342778420601861201}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 5.5, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -666,17 +666,17 @@ Transform:
   - {fileID: 1593881093434580865}
   - {fileID: 4398751330977489765}
   - {fileID: 3894260852734555528}
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 7934139751415524327}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!95 &7934139751415524320
+--- !u!95 &5342778420601861200
 Animator:
   serializedVersion: 4
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7934139751415524321}
+  m_GameObject: {fileID: 5342778420601861201}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
   m_Controller: {fileID: 9100000, guid: 6d012027b598b6a49ac1f6576cb488d0, type: 2}
@@ -689,13 +689,13 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
---- !u!114 &7934139751415524325
+--- !u!114 &5342778420601861205
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7934139751415524321}
+  m_GameObject: {fileID: 5342778420601861201}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 95d17b32c61d39644a2a6f25de66b2f6, type: 3}
@@ -707,7 +707,7 @@ MonoBehaviour:
   startEvent:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 7934139751415524325}
+      - m_Target: {fileID: 5342778420601861205}
         m_TargetAssemblyTypeName: CoroutineBehavior, Assembly-CSharp
         m_MethodName: StartRepeatUntilFalse
         m_Mode: 1
@@ -731,7 +731,7 @@ MonoBehaviour:
   repeatUntilFalseEvent:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 7934139751415524326}
+      - m_Target: {fileID: 5342778420601861206}
         m_TargetAssemblyTypeName: ObjectScrollBehavior, Assembly-CSharp
         m_MethodName: Move
         m_Mode: 1
@@ -745,13 +745,13 @@ MonoBehaviour:
         m_CallState: 2
   counterNum: {fileID: 11400000, guid: 4eda193f09e2bb3429569a106244f9ca, type: 2}
   seconds: 0.02
---- !u!114 &7934139751415524326
+--- !u!114 &5342778420601861206
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7934139751415524321}
+  m_GameObject: {fileID: 5342778420601861201}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: b9eecbfded14dc8488ef14b2fa05f213, type: 3}
@@ -759,13 +759,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   stopCheck: {fileID: 11400000, guid: 298d5cefa096d1a48844873ac3046063, type: 2}
   speed: -0.2
---- !u!114 &4868094411436672344
+--- !u!114 &7471494496116169448
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7934139751415524321}
+  m_GameObject: {fileID: 5342778420601861201}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 330be0763c8256b4987bf40660b03302, type: 3}
@@ -773,3 +773,35 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   seconds: 10
   stopCheck: {fileID: 11400000, guid: 298d5cefa096d1a48844873ac3046063, type: 2}
+--- !u!1 &7934139751415524321
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7934139751415524327}
+  m_Layer: 0
+  m_Name: Trap_CoinlureAlt_Entity
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7934139751415524327
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7934139751415524321}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 2.407599, y: 2.6987586, z: -0.3530233}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 5342778420601861207}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
