@@ -71,7 +71,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   stopCheck: {fileID: 11400000, guid: 298d5cefa096d1a48844873ac3046063, type: 2}
-  speed: -0.2
+  speed: {fileID: 11400000, guid: 9ca62282bd482b44a83251d97ece94f2, type: 2}
 --- !u!114 &3894762344393292910
 MonoBehaviour:
   m_ObjectHideFlags: 0
