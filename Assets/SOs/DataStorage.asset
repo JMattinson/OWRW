@@ -12,6 +12,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9c9963c20b55d774ea6ef0dcb47a0838, type: 3}
   m_Name: DataStorage
   m_EditorClassIdentifier: 
-  data: {fileID: 0}
-  listData:
-  - {fileID: 11400000, guid: 862e738c703f67f4886383ba6abd9beb, type: 2}
+  data: {fileID: 11400000, guid: 862e738c703f67f4886383ba6abd9beb, type: 2}
+  listData: []

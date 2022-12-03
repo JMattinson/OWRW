@@ -2064,6 +2064,34 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1117836980425698245, guid: a362badf341bd154e81ed04355f43fbb, type: 3}
+      propertyPath: awakeEvent.m_PersistentCalls.m_Calls.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1117836980425698245, guid: a362badf341bd154e81ed04355f43fbb, type: 3}
+      propertyPath: awakeEvent.m_PersistentCalls.m_Calls.Array.data[1].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1117836980425698245, guid: a362badf341bd154e81ed04355f43fbb, type: 3}
+      propertyPath: awakeEvent.m_PersistentCalls.m_Calls.Array.data[1].m_Target
+      value: 
+      objectReference: {fileID: 11400000, guid: 4b1ed9fd25f517149a98277143be7702, type: 2}
+    - target: {fileID: 1117836980425698245, guid: a362badf341bd154e81ed04355f43fbb, type: 3}
+      propertyPath: awakeEvent.m_PersistentCalls.m_Calls.Array.data[1].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1117836980425698245, guid: a362badf341bd154e81ed04355f43fbb, type: 3}
+      propertyPath: awakeEvent.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
+      value: SetData
+      objectReference: {fileID: 0}
+    - target: {fileID: 1117836980425698245, guid: a362badf341bd154e81ed04355f43fbb, type: 3}
+      propertyPath: awakeEvent.m_PersistentCalls.m_Calls.Array.data[1].m_TargetAssemblyTypeName
+      value: DataStorage, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 1117836980425698245, guid: a362badf341bd154e81ed04355f43fbb, type: 3}
+      propertyPath: awakeEvent.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
     - target: {fileID: 1117836980425698246, guid: a362badf341bd154e81ed04355f43fbb, type: 3}
       propertyPath: m_RootOrder
       value: 6
